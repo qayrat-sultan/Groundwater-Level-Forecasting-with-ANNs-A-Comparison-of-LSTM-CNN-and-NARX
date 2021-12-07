@@ -1,16 +1,17 @@
 # Установка проекта и формирование модели
 Работает на Windows, NVIDIA CUDA 11.5 
 
-## Project setup
+## Установка нужных библиотек в виртуальной среде
+Открываем командную строку с помошью <b>cmd</b>
 ```
-mkdir new_folder
-cd new_folder
-virtualenv venv
-venv\Scripts\activate
+1. mkdir new_folder
+2. cd new_folder
+3. virtualenv venv
+4. venv\Scripts\activate
 
-pip install -r req.txt
+5. pip install -r req.txt
 ```
-Перезагрузка системы Windows
+Перезагрузка системы Windows. После перезагрузки повторим 2 и 4 ые пункты в командной строке
 
 ### Собираем модель
 
