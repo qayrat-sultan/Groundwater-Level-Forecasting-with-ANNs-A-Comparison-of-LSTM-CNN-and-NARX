@@ -1,3 +1,32 @@
+# Установка проекта и формирование модели
+Работает на Windows, NVIDIA CUDA 11.5 
+
+## Project setup
+```
+mkdir new_folder
+cd new_folder
+virtualenv venv
+venv\Scripts\activate
+
+pip install -r req.txt
+```
+Перезагрузка системы Windows
+
+### Собираем модель
+
+```
+python LSTM_seq2seq.py
+```
+
+#### Придется подождать много времени (зависит от вашего железа)
+
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
 # Groundwater Level Forecasting with ANNs: A Comparison of LSTM CNN and NARX
 doi of this repo:  
 [![DOI](https://zenodo.org/badge/290500651.svg)](https://zenodo.org/badge/latestdoi/290500651)   
